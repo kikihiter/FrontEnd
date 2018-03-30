@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>基本的表格</p>
+	<p><table border="1" width="100%">
+		<tr>
+			<th>Month</th>
+    		<th>Savings</th>
+  		</tr>
+  		<tr>
+    		<td>January</td>
+    		<td>$100</td>
+  		</tr>
+	</table></p>
+
+	<p>符合语义的表格</p>
+	<p><table border="1" width="100%">
+		<tr>
+			<th>Month</th>
+    		<th>Savings</th>
+  		</tr>
+  		<tr>
+    		<td>January</td>
+    		<td>$100</td>
+  		</tr>
+  		<tr>
+    		<td>February</td>
+    		<td>$80</td>
+  		</tr>
+  		<tr>
+    		<td>sum</td>
+    		<td>$180</td>
+  		</tr>
+	</table></p>
+
+	<p>水平合并单元格</p>
+	<p><table border="1" width="100%">
+		<tr>
+			<td colspan="2">Month</td>
+		</tr>
+		<tr>
+			<td>January</td>
+    		<td>$100</td>
+		</tr>
+	</table></p>
+
+	<p>垂直合并单元格</p>
+	<p><table border="1" width="100%">
+		<tr>
+			<td rowspan="2">Month</td>
+			<th>Savings</th>
+		</tr>
+		<tr>
+			<td>$100</td>
+		</tr>
+	</table></p>
+
+	<p>复杂的表格</p>
+	<p><table border="1" width="100%" cellpadding="10">
+		<tr>
+			<td colspan="4"></td>
+		</tr>
+		<tr>
+			<td rowspan="3"></td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4"></td>
+		</tr>
+	</table></p>
+</body>
+</html>
